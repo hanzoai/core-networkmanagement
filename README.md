@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="core-networkmanagement" width="880"></p>
+
 # core-networkmanagement
 A Networkmanager built with coreDNS and coreDHCP with web gui
 ## Summary of goals
