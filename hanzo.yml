@@ -1,0 +1,13 @@
+# Echo + Postgres network-management frontend.
+#
+# This tree had no go.mod at all — it predates modules and its own import path
+# (core-networkmanager/frontend/plugins) resolved only under GOPATH, so nothing
+# here could be built by any tool written in the last seven years. The module
+# file committed alongside this config is what makes the gate below possible;
+# without it there is no honest assertion to make about this repo.
+test:
+  - name: build
+    run: |
+      set -euo pipefail
+      go build ./...
+      go vet ./...
