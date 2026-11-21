@@ -1,4 +1,7 @@
 # core-networkmanagement
+
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/core-networkmanagement&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/core-networkmanagement&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/core-networkmanagement&ref=main&action=deploy)
+
 A Networkmanager built with coreDNS and coreDHCP with web gui
 ## Summary of goals
 Core Network Management is designed to be a modern, scalable, distributed, network managing tool that makes statically assigned devices a thing of the past. The web application manages CoreDNS and CoreDHCP instances, and allows the easy management of DHCP static-mappings, meaning a host will get the same IP every time it makes a new request. The system also has the ability to automatically generate forward and reverse records for hosts, as well as update these records based on the host’s current DHCP license. The system also is able to allow roaming between some networks, while rejecting DHCP requests from all but specifically designated hosts on others. The system is also designed to minimize latency in a geographically distributed environment, allowing networks and domains to be assigned to locations.
